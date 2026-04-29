@@ -1,0 +1,26 @@
+data/.git/
+data/.git.bak/
+data/原始数据+问卷2011~2020/
+
+# Large raw source snapshots
+data/整理完的-charls数据/CHARLS.csv
+data/整理完的-charls数据/charls.dta
+
+# Old intermediate dataset versions
+data/整理完的-charls数据/CHARLS_labor_panel_2018_2020_v0_*
+data/整理完的-charls数据/CHARLS_labor_panel_2018_2020_v1_*
+data/整理完的-charls数据/CHARLS_labor_cleaning_report_2018_2020_v0.xlsx
+data/整理完的-charls数据/CHARLS_labor_cleaning_report_2018_2020_v1.xlsx
+data/整理完的-charls数据/*.dta
+
+# Intermediate candidate and diagnostic outputs not needed in shared commits
+data/outputs/2020_labor_variable_candidates.xlsx
+data/outputs/2020_work_retirement_variable_dictionary.xlsx
+data/outputs/economic_pressure_variable_candidates_2018_2020.xlsx
+data/outputs/family_care_distribution_v1.xlsx
+data/outputs/family_care_variable_candidates_2018_2020.xlsx
+data/outputs/health_variable_candidates_2018_2020.xlsx
+data/outputs/labor_logic_anomalies_v1.csv
+data/outputs/labor_logic_anomalies_v2.csv
+data/outputs/labor_variable_candidates_2018_2020.xlsx
+data/outputs/variable_source_2018_2020_v0.csv

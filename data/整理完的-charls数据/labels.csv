@@ -1,0 +1,176 @@
+列名,含义
+ID,受访者编码
+wave,第几波调查
+householdID,家庭编码
+communityID,社区编码
+iwy,调查年份
+iwm,调查月份
+gender,性别
+marry,婚姻
+rural,居住地
+rural2,户口
+srh,自评健康
+adlab_c,ADL(6项有困难)
+hibpe,高血压
+diabe,糖尿病
+cancre,癌症
+lunge,肺病
+hearte,心脏病
+stroke,中风
+psyche,精神疾病
+arthre,关节炎
+dyslipe,血脂异常
+livere,肝脏疾病
+kidneye,肾脏疾病
+digeste,胃病
+asthmae,哮喘病
+memrye,记忆疾病
+vgact_c,重度锻炼
+mdact_c,中度锻炼
+ltact_c,轻度锻炼
+drinkev,是否饮过酒
+drinkl,现在是否饮酒
+smokev,是否吸过烟
+smoken,现在是否吸烟
+hospital,过去一年是否住院
+hospital_time,过去一年住院次数
+hspnite,住院天数
+doctor,过去一个月是否门诊
+doctor_time,过去一个月门诊次数
+oophos1y,住院自付费用
+tothos1y,住院总费用
+oopdoc1m,门诊自付费用
+totdoc1m,门诊总费用
+income_total,家庭总收入
+hhcperc,家庭人均消费
+family_size,家庭规模
+hchild,健在子女数
+fcamt,子女对父母的经济支持
+tcamt,父母对子女的经济支持
+retire,是否退休
+wspeed1,步行速度测试-第1次
+wspeed2,步行速度测试-第2次
+wspeed,步行速度测试-均值
+systo1,第1次收缩压
+systo2,第2次收缩压
+systo3,第3次收缩压
+systo,第2/3次收缩压的均值
+diasto1,第1次舒张压
+diasto2,第2次舒张压
+diasto3,第3次舒张压
+diasto,第2/3次舒张压
+pulse1,第1次脉搏
+pulse2,第2次脉搏
+pulse3,第3次脉搏
+pulse,第2/3次脉搏的均值
+lgrip1,左手的第1次握力测试
+lgrip2,左手的第2次握力测试
+lgrip,左手的最大握力测试
+rgrip1,右手的第1次握力测试
+rgrip2,右手的第2次握力测试
+rgrip,右手的最大握力测试
+mheight,身高/m
+mweight,体重/kg
+mwaist,腰围/cm
+bmi,BMI
+puff1,第一次呼吸测试
+puff2,第二次呼吸测试
+puff3,第三次呼吸测试
+puff,呼吸测试最大值
+cesd10,"心理健康(30分,越大越差)"
+satlife,生活满意度
+da042s1,头疼
+da042s2,肩膀疼
+da042s3,胳膊疼
+da042s4,手腕疼
+da042s5,手指疼
+da042s6,胸疼
+da042s7,胃疼
+da042s8,背疼
+da042s9,腰疼
+da042s10,臀部疼
+da042s11,腿疼
+da042s12,膝盖疼
+da042s13,脚踝疼
+da042s14,脚趾头疼
+da042s15,脖子疼
+sleep,睡眠时间
+act_1,串门、跟朋友交往
+act_2,打麻将、下棋、打牌、去社区活动室
+act_3,无偿向与您不住在一起的亲人、朋友或者邻居提供帮助
+act_4,去公园或者其他场所跳舞、健身、练气功等
+act_5,参加社团组织活动
+act_6,志愿者活动或者慈善活动
+act_7,上学或者参加培训课程
+act_8,其他社交
+ea001s1,城镇职工医疗保险
+ea001s3,城镇居民医疗保险
+ea001s4, 新型农村合作医疗保险
+ea001s2,城乡居民医疗保险
+ea001s5,公费医疗
+ea001s6,医疗救助
+ea001s7,商业医疗保险: 单位购买
+ea001s8,商业医疗保险: 个人购买
+ea001s11,其他医疗保险
+bloodweight,Blood Weight with Household and Individual Response Adjustment
+bl_fasting,是否空腹
+bl_wbc,White Blood Cell in Thousands白细胞
+bl_mcv,MCV平均红细胞体积(fl)
+bl_plt,Platelets血小板计数(10^9/L)
+bl_bun,Blood Urea Nitrogen (BUN) (mg/dl)尿素氮
+bl_glu,Glucose (mg/dl)血糖
+bl_crea,Creatinine (mg/dl)肌酐
+bl_cho,Total Cholesterol (mg/dl)总胆固醇
+bl_tg,Triglycerides甘油三酯 (mg/dl)
+bl_hdl,Hdl Cholesterol高密度脂蛋白胆固醇 (mg/dl)
+bl_ldl,Ldl Cholesterol低密度脂蛋白胆固醇 (mg/dl)
+bl_crp,C-Reactive Protein (CRP) C反应蛋白(mg/l)
+bl_hbalc,Glycated Hemoglobin糖化血红蛋白 (%)
+bl_ua,Uric Acid尿酸(mg/dl)
+bl_hct,Hematocrit红细胞比容(%)
+bl_hgb,Hemoglobin血红蛋白 (g/dl)
+bl_cysc,Cystatin C胱抑素C(mg/l)
+disability,是否残疾
+water,是否有自来水
+social1,串门、跟朋友交往
+social2,打麻将、下棋、打牌、去社区活动室
+social3,向与您不住在一起的亲人、朋友或者邻居提供帮助
+social4,跳舞、健身、练气功等
+social5,参加社团组织活动
+social6,志愿者活动或者慈善活动
+social7,照顾与您不住在一起的病人或残疾人
+social8,上学或者参加培训课程
+social9,炒股
+social10,上网
+social11,其他社交活动
+communication,通讯费用
+hope,对未来充满希望
+fall_down,跌倒
+glass,戴眼镜
+eyesight_distance,远视情况
+eyesight_close,近视情况
+hear_aid,助听器
+hear,听力
+teeth,掉牙
+hip,髋骨骨折
+nation,是否汉族
+province,省份
+city,城市
+age,年龄
+edu,教育
+exercise,是否锻炼
+totmet,身体活动产生的总代谢量
+memeory,情景记忆(0~10分)
+executive,心智状况(0~11分)
+total_cognition,"认知能力(0~21分,越大越好)"
+chronic,是否有慢性病
+ins,是否有医疗保险
+pension,是否有养老保险
+iadl,IADL(5项有困难)
+tyg,甘油三酯葡萄糖指数(TyG指数)
+tyg_bmi,油三酯葡萄糖体重指数(TyG-BMI指数)
+ea001s9,城镇无业居民大病医疗保险
+ea001s10,长期护理保险
+bl_top_coding_tg,Whether or not top-coding Triglycerides values to 500
+hibpe_1,高血压(包括血检检测)
+diabe_1,糖尿病(包括血检检测)
