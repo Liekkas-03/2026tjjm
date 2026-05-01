@@ -1,0 +1,6 @@
+论文图表使用建议
+1. 正文最推荐使用的表格清单：Table 1、Table 2、Table 3、Table 4、Table 5、Table 6、Table 7 中至少应保留 Table 3、Table 4、Table 5、Table 6。
+2. 正文最推荐使用的图形清单：劳动参与率分组柱状图、Logit Model 5 forest plot、SHAP bar summary（main_clean）、SHAP beeswarm（main_clean），以及 3-4 张关键 dependence plots。
+3. 更适合放附录的结果：全量 heterogeneity 明细表、no_totmet 和 full_feature 的 SHAP bar summary、其余 dependence plots、单年份与年龄截断回归的完整结果。
+4. 如果论文字数有限，优先保留：Table 3 主回归、Table 4 稳健性、Table 5 机器学习性能、Table 6 SHAP 重要特征、Figure 3 SHAP bar 和 Figure 4 SHAP beeswarm。
+5. 解释风险较高、正文需回避过度展开的变量：family_care_index_v1、year_2020、depression_high、total_cognition_w、所有 *_missing 指示变量，以及任何可能代理劳动活动强度的变量。

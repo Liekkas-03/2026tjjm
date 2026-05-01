@@ -1,0 +1,43 @@
+实证结果写作框架
+
+1. 描述性统计与劳动参与现状
+- 要回答的问题：样本总体特征如何，不同年龄、性别、城乡和压力状态下的劳动参与率有何差异。
+- 建议引用：paper_table1_descriptive_stats_final.xlsx、paper_table2_group_labor_rates_final.xlsx、fig1_labor_rates_groups.png。
+- 解释要点：突出年龄梯度、性别差异、城乡差异，以及健康和压力变量分组下的劳动参与率分化。
+- 需要避免的误读：描述性差异不代表因果影响。
+
+2. 主回归结果
+- 要回答的问题：在控制人口学特征后，健康约束、家庭照料与代际支持压力代理、经济压力变量与劳动参与之间的方向和显著性如何。
+- 建议引用：paper_table3_logit_main_final.xlsx、fig2_logit_model5_forest.png。
+- 解释要点：重点解释 poor_health、iadl_limit、family_care_index_v1、economic_pressure_index_v1、log_hhcperc_v1_w 等变量。
+- 需要避免的误读：year_2020 仅为控制变量；family_care_index_v1 不是纯照料责任测度。
+
+3. 稳健性检验
+- 要回答的问题：在改变变量组合、样本时期和年龄范围后，核心结论是否稳定。
+- 建议引用：paper_table4_robustness_final.xlsx、heterogeneity_logit_results_v1.xlsx 中的 summary 页。
+- 解释要点：强调健康约束与经济压力方向稳定，family_care_index_v1 的解释应保持谨慎。
+- 需要避免的误读：稳健性支持的是相关结构稳定，不是识别因果通道。
+
+4. 机器学习预测结果
+- 要回答的问题：不同模型的预测性能如何，LightGBM 是否适合作为可解释分析基础。
+- 建议引用：paper_table5_ml_performance_final.xlsx。
+- 解释要点：说明 LightGBM 略优于 XGBoost 和 LogisticRegression，AUC 处于可接受范围。
+- 需要避免的误读：预测性能高不等于变量具有更强因果影响。
+
+5. SHAP 可解释分析
+- 要回答的问题：在 main_clean 方案下，哪些变量具有较高的预测解释贡献。
+- 建议引用：paper_table6_shap_top_features_final.xlsx、fig3_shap_bar_main_clean.png、fig4_shap_beeswarm_main_clean.png 及精选 dependence plots。
+- 解释要点：强调 age、urban、female、iadl_limit、economic pressure related variables 等的解释贡献。
+- 需要避免的误读：SHAP 仅反映模型内的解释贡献，不能写成因果证明。
+
+6. 异质性分析
+- 要回答的问题：核心变量在性别、城乡、年龄、健康、家庭压力和经济压力分组中是否存在差异。
+- 建议引用：paper_table7_heterogeneity_final.xlsx、heterogeneity_logit_results_v1.xlsx。
+- 解释要点：比较 poor_health、iadl_limit、family_care_index_v1、economic_pressure_index_v1 的系数方向和显著性变化。
+- 需要避免的误读：异质性结果更多是相关结构差异，不宜过度延伸为政策效果差异。
+
+7. 小结
+- 要回答的问题：整体实证证据是否支持“延迟退休背景下的劳动参与适配性受健康、家庭与经济压力共同约束”的主线。
+- 建议引用：概括 Table 3、Table 4、Table 6 和 Table 7 的核心发现。
+- 解释要点：将主回归、稳健性、SHAP 和异质性分析形成一致叙事。
+- 需要避免的误读：不要把预测解释贡献与政策因果效应混同。

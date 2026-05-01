@@ -24,3 +24,33 @@ data/outputs/labor_logic_anomalies_v1.csv
 data/outputs/labor_logic_anomalies_v2.csv
 data/outputs/labor_variable_candidates_2018_2020.xlsx
 data/outputs/variable_source_2018_2020_v0.csv
+
+# Final-model intermediate files not needed for team handoff
+outputs/final_model_data_v1/CHARLS_labor_panel_2018_2020_v4_logit_final.csv
+outputs/final_model_data_v1/CHARLS_labor_panel_2018_2020_v4_ml_final.csv
+outputs/final_model_data_v1/final_feature_roles_v1.xlsx
+outputs/final_model_data_v1/final_model_data_report_v1.xlsx
+outputs/final_model_data_v1/leakage_review_v1.xlsx
+outputs/final_model_data_v1/final_leakage_audit_v1/feature_role_consistency_check_v1.xlsx
+outputs/final_model_data_v1/final_leakage_audit_v1/final_columns_audit_v1.xlsx
+outputs/final_model_data_v1/final_leakage_audit_v1/proxy_leakage_check_v1.xlsx
+outputs/final_model_data_v1/final_leakage_audit_v1/strict_keyword_leakage_check_v1.xlsx
+
+# Stage 3 draft tables superseded by Stage 5 paper-ready tables
+outputs/model_stage3_review_v1/paper_table1_descriptive_stats_v1.xlsx
+outputs/model_stage3_review_v1/paper_table2_labor_rate_by_group_v1.xlsx
+outputs/model_stage3_review_v1/paper_table3_logit_main_results_v1.xlsx
+outputs/model_stage3_review_v1/paper_table4_robustness_v1.xlsx
+outputs/model_stage3_review_v1/paper_table5_ml_performance_v1.xlsx
+
+# Stage 4 duplicate dependence plots are superseded by Stage 5 curated figure set
+outputs/model_stage4_shap_v1/dependence_main_clean/
+
+# Training and intermediate review outputs are not required in the minimal teammate handoff
+outputs/model_training_v1/
+outputs/model_stage3_review_v1/
+outputs/model_stage4_shap_v1/
+
+# Keep Stage 5 only as the final paper-ready package
+outputs/model_stage5_paper_ready_v1/appendix_figures/
+outputs/model_stage5_paper_ready_v1/heterogeneity_logit_results_v1.xlsx
